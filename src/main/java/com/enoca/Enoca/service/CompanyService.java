@@ -27,7 +27,7 @@ public class CompanyService
                 .orElseThrow(() -> new IllegalArgumentException("Şirket bulunamadı: " + companyId));
 
         company.setName(updatedCompany.getName());
-        // diğer alanlar güncellenirse buraya ekleyin
+
 
         return companyRepository.save(company);
     }

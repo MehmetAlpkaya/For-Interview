@@ -28,7 +28,7 @@ public class EmployeeService {
 
         employee.setName(updatedEmployee.getName());
         employee.setPosition(updatedEmployee.getPosition());
-        // diğer alanlar güncellenirse buraya ekleyin
+
 
         return employeeRepository.save(employee);
     }
