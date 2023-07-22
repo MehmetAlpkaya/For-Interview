@@ -13,7 +13,7 @@ Bu talimatlar, projeyi yerel makinenizde çalıştırmak ve geliştirmek için s
 - Git
 - Spring Boot
 - Spring Data JPA
--  H2 Database
+- MySql
 - Swagger
 
 ### Proje Yapısı
